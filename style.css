@@ -1,3 +1,26 @@
+body {
+  font-family: system-ui;
+  background: #8DC69E;
+  color: black;
+  text-align: center;
+  font-family: serif;
+}
+
+header {
+  background-color: #429259;
+  display: flex;
+  align-items: center;
+  font-family: serif;
+  font-size: large;
+  margin: inherit;
+  flex-direction: column;
+
+}
+
+.titulo {
+  text-align: justify;
+}
+
 .campo {
     width: 50%;
 }
