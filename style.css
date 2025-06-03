@@ -23,5 +23,6 @@ header {
 
 .campo {
     width: 50%;
+    <div data-aos="fade-up"></div>
 }
 
