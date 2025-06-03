@@ -1,13 +1,13 @@
 body {
   font-family: system-ui;
   background: #b9e7c7;
-  color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
   text-align: center;
   font-family: serif;
 }
 
 header {
-  background-color: #493d1d;
+  background-color: #0c6309;
   display: flex;
   align-items: center;
   font-family: serif;
