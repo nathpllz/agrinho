@@ -8,7 +8,7 @@ body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
     background-color: #f4f4f4;
-    color: #333;
+    color: #1f7c2c;
 }
 
 header {
@@ -41,7 +41,7 @@ header nav ul li a {
 }
 
 h1, h2 {
-    color: #2c3e50;
+    color: #ffffff;
 }
 
 .container {
