@@ -26,10 +26,13 @@ header .container {
 }
 
 
-h1, h2 {
-    color: #ffffff;
+h1{
+    color: #000000;
 }
 
+h2{
+    color: #000000;
+}
 
 
 section {
