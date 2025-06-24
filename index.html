@@ -3,35 +3,65 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-     <link rel="stylesheet" href="style.css">
-    <title>Raízes urbanas</title>
+    <title>Eventos e Festivais Rurais</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap" async defer></script>
 </head>
 <body>
+    
     <header>
-        <h1>
-             Eventos e Festivais Rurais
-        </h1>
-          <section class="botao"
-       <button> <a href="https://www.claudio.mg.gov.br/portal/noticias/0/3/4567/vem-ai-a-38-festa-do-trabalhador-rural-mons-joao-alexandre--uma-celebracao-a-forca-fe-e-tradicao-do-nosso-povo-do-campo">festival</a> </button>
-      </section>
-
+        <div class="container">
+            <h1>Eventos e Festivais Rurais</h1>
+            <nav>
+                <ul>
+                    <li><a href="#eventos">Eventos</a></li>
+                    <li><a href="#mapa">Mapa</a></li>
+                    <li><a href="#galeria">Galeria</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
-    <section class="título">
-<div>
-<h2>Importância dos Eventos e Festivais Rurais</h2>
-<h3>Os festivais e eventos rurais desempenham um papel fundamental ao celebrar as tradições do campo e fortalecer os laços comunitários. Mais do que encontros festivos, eles promovem a cultura local, dão visibilidade aos saberes populares e contribuem para a valorização da agricultura e da vida no campo.</h3>
 
-</div>
-<img class="campo" src="campoo.jfif" alt="campo">
+    
+    <section id="eventos" class="container">
+        <h2>Próximos Eventos</h2>
+        <div class="evento">
+            <h3>Festa do Milho</h3>
+            <p>Data: 12-14 de agosto</p>
+            <p>Local: Fazenda São João, Interior de São Paulo</p>
+            <p>Descrição: A Festa do Milho é uma celebração das tradições rurais, com muitas atrações típicas, comida caseira e música ao vivo.</p>
+        </div>
+        <div class="evento">
+            <h3>Festival do Café</h3>
+            <p>Data: 25-27 de setembro</p>
+            <p>Local: Fazenda do Sol, Minas Gerais</p>
+            <p>Descrição: Um festival dedicado à cultura do café, com degustações, oficinas de produção e shows de artistas locais.</p>
+        </div>
     </section>
-    <section>
 
 
+    <section id="mapa" class="container">
+        <h2>Localização dos Eventos</h2>
+        <div id="map"></div>
+    </section>
+
+    <section id="galeria" class="container">
+        <h2>Galeria de Fotos</h2>
+        <div class="galeria">
+            <img src="img/festa_milho.jpg" alt="Festa do Milho">
+            <img src="img/festival_cafe.jpg" alt="Festival do Café">
+        </div>
     </section>
 
     <footer>
-        <p>Desenvolvido pela</p>
+        <div class="container">
+            <p>&copy; 2025 Eventos e Festivais Rurais | Todos os direitos reservados</p>
+            <div class="social">
+                <a href="#">Facebook</a> | <a href="#">Instagram</a> | <a href="#">Twitter</a>
+            </div>
+        </div>
     </footer>
-    <script.src=main.js></script.src>
+
+    <script src="script.js"></script>
 </body>
 </html>
