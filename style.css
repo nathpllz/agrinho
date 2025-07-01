@@ -57,6 +57,7 @@ section {
 
 .galeria img {
     width: 48%;
+    border-radius: 8px;
 }
 
 footer {
