@@ -21,6 +21,7 @@ header {
 header .container a {
     list-style: none;
     text-align: center;
+    display: flex;
 
 
 }
