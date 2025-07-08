@@ -14,9 +14,9 @@ header {
     background-color: #178b30;
     color: #fff;
     padding: 20px 0;
-    justify-content: space-between;
-    align-items: center;
     display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 
 header .container a {
