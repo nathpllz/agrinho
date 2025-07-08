@@ -18,8 +18,9 @@ header {
     align-items: center;
 }
 
-header .container li a {
+header .container a {
     list-style: none;
+    text-align: center;
 
 
 }
